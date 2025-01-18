@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sahil Cipher, a highly skilled and certified cybersecurity engineer specializing in threat detection, incident response, and network security. Experienced SOC analyst with a proven track record in protecting critical systems and data.">
+    <meta name="keywords" content="cybersecurity engineer, SOC analyst, threat detection, incident response, network security, SIEM, penetration testing, ethical hacker, CEH, cyber defense, cyber security portfolio, security consultant">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Sahil Cipher">
+    <meta property="og:title" content="sahilcipher | Sahil Cipher - Cybersecurity Engineer">
+    <meta property="og:description" content="Experienced cybersecurity engineer & SOC analyst skilled in threat detection, incident response, and network security.">
+
+
+
+    <title>harsh-singh-rao | Security Analyst</title>
+<style>
+/* General Reset */
+* {
+    
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    background: linear-gradient(to right, #0a0a0a, #1f1f1f);
+    color: #e0e0e0; /* Lighter text color for better contrast */
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px 20px;
+    position: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: 0.3s;
+    border-bottom: 2px solid #3d4eb1; /* Keep the green and purple theme */
+}
+
+header.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.3);
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-items li a:hover {
+    background: #a8a4eb;
+    color: #fff;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://www.wallpaperflare.com/static/1005/1009/287/hacker-cyber-security-code-computer-wallpaper.jpg") no-repeat center center/cover;
+    position: relative;
+    animation: backgroundChange 5s infinite alternate;
+}
+
+@keyframes backgroundChange {
+    0% {
+        background: linear-gradient(to right, #0a0a0a, #1f1f1f);
+    }
+    100% {
+        background: linear-gradient(to right, #1f1f1f, #0a0a0a);
+    }
+}
+
+.text-holder h1 {
+    font-size: 3.5rem;
+    color: rgb(5, 77, 5);
+    animation: fadeInUp 2s;
+}
+
+.text-holder h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #8784b3;
+    animation: fadeInUp 2.5s;
+}
+
+.btn {
+    background: linear-gradient(to right, #0f0, #ff0000);
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #000;
+    color: #0f0;
+    border: 2px solid #570707;
+    transform: scale(1.05);
+    animation: pulse 0.6s infinite;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+    background: #121212;
+}
+
+.service-card {
+    background: linear-gradient(to bottom, #0f0, #270aa8);
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #000;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(110, 6, 6, 0.5);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    background: linear-gradient(to bottom, #000, #0f0);
+    color: #fff;
+}
+
+.service-card i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.Skills Section 
+#resume .progress-item {
+    margin-bottom: 20px;
+    animation: fadeInLeft 1.5s;
+}
+
+.progress-bar {
+    background: linear-gradient(to right, #000, #222);
+    border: 1px solid #1a2250;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.progress-line {
+    background: linear-gradient(to right, #0f0, #ff0000);
+    height: 100%;
+    width: 0;
+}
+
+.progress-bar:hover .progress-line {
+    animation: fillBarTo70 1.5s forwards;
+}
+
+@keyframes fillBarTo70 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+/* Achievements Section */
+#portfolio .gallery-item {
+    opacity: 0;
+    transform: scale(0.9);
+    border: 4px solid transparent;
+    animation: fadeIn 1.5s forwards, borderGlow 2s infinite alternate;
+}
+
+@keyframes borderGlow {
+    from {
+        border-color: #0f0;
+        box-shadow: 0 0 10px #0f0;
+    }
+    to {
+        border-color: #ff0000;
+        box-shadow: 0 0 20px #090b79;
+    }
+}
+
+#portfolio .gallery-item:nth-child(odd) {
+    animation-delay: 0.2s;
+}
+
+#portfolio .gallery-item:nth-child(even) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulseForm {
+    from {
+        transform: scale(1);
+        box-shadow: 0 0 10px #ff00ff;
+    }
+    to {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #0f0;
+    }
+}
+
+.contact-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-info .social-icons a {
+    color: #0f0;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.contact-info .social-icons a:hover {
+    color: #000;
+    background: #ff00ff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: #0f0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+    </style>
+
+   
+    <!-------------- Font Awesome Link -------------->
+    <script src="js/de270889e1.js" crossorigin="anonymous"></script>
+    <!-------------- Owl Carousel Links -------------->
+    <link rel="stylesheet" href="css/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="css/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------------- AOS Link -------------->
+    <link rel="stylesheet" href="css/aos.css" />
+
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9Z65CMZ384"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9Z65CMZ384');
+</script>
+    
+
+</head>
+
+<body>
+
+    <!-------------- Navbar -------------->
+    <header>
+        <nav id="navbar" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1800">
+            <div class="logo">
+                <img src="Images/Logo1.png" sizes=" 48x48" alt="">
+            </div>
+            <!-- Hamurger -->
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#resume">Skills</a></li>
+                <li><a href="#portfolio">Achievements</a></li>
+                <li><a href="#" target="_blank">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-------------- Home Section -------------->
+    <section id="home">
+        <div class="text-holder">
+            <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">Harsh <span>Singh Rao</span></h1>
+            <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200"><span id="subText">Cybersecurity Enthusiast</span></h3>
+            <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200">Based in Udaipur, Rajasthan, India</h3>
+            <div class="button" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1500">
+                <button class="btn">
+                    <a href="#portfolio">View My Achievements</a>
+                </button>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="https://thumbs.dreamstime.com/b/unknown-hooded-computer-hacker-smoke-background-hooded-computer-hacker-smoke-background-104727196.jpg" alt="">
+        </div>
+    </section>
+
+    <!-------------- About Section -------------->
+    <section id="about">
+        <div class="container">
+            <div class="about-img" data-aos="fade-right" data-aos-duration="1200">
+                <img src="Images/Hero.jpg" alt="">
+            </div>
+            <div class="text-wrapper" data-aos="fade-right" data-aos-duration="1200">
+                <h4>Harsh Singh Rao</h4>
+                <h5>An Aspiring <span>Cybersecurity Professional</span> | <span>BCA Student</span> | <span>Ethical Hacking Advocate</span> based in <span>Udaipur, Rajasthan</span></h5>
+                <p style="text-align: justify;">Cybersecurity professional and penetration tester from India with expertise in web application security, vulnerability assessments, and ethical hacking. Experienced in conducting cyber awareness seminars and skilled in threat detection and system analysis. Committed to promoting cybersecurity and safeguarding digital environments.</p>
+                <div class="about-list">
+
+                    <!-- List Item Start -->
+                    <div class="list-item">
+                        <label>Phone</label>
+                        <p>8824968540</p>
+                    </div>
+                    <!-- List Item End -->
+
+                    <div class="list-item">
+                        <label>Email</label>
+                        <p>harshsinghrao4@gmail.com</p>
+                    </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
+                    <div class="list-item">
+                        <label>Freelance</label>
+                        <p>Available</p>
+                    </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
+                    <div class="list-item">
+                        <label>Education</label>
+                        <p>B.C.A. (Bachelor of Computer Applications, 1st Year)</p>
+                    </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
+                    <div class="list-item">
+                        <label>Residence</label>
+                        <p>Udaipur, Rajasthan, India</p>
+                    </div>
+                    <!-- List Item End -->
+                </div>
+                <button class="btn"><a href="https://pdflink.to/f3d06554/">Download CV</a></button>
+            </div>
+        </div>
+    </section>
+
+<!-------------- Services Section -------------->
+<section id="services">
+    <div class="heading-wrapper">
+        <div class="heading">
+            <h2>My Services</h2>
+        </div>
+        <div class="animate-bar"></div>
+        <div class="sub-heading">
+            <p>Service is the rent we pay for living.</p>
+        </div>
+    </div>
+    <div class="container">
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-shield-alt"></i>
+                <h5>Basic Security Assessments</h5>
+                <p style="text-align: justify;">Evaluate your organization's security posture, identify vulnerabilities, and provide actionable recommendations to enhance protection.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-network-wired"></i>
+                <h5>Security Architecture Design</h5>
+                <p style="text-align: justify;">Design robust and scalable security frameworks to safeguard critical assets and ensure long-term protection.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-headset"></i>
+                <h5>Security and Tech Support Consultant</h5>
+                <p style="text-align: justify;">Get expert guidance to enhance your security measures and resolve technical issues efficiently, ensuring smooth operations.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-exclamation-triangle"></i>
+                <h5>Risk Assessment and Compliance</h5>
+                <p style="text-align: justify;">Identify, evaluate, and prioritize security risks to ensure compliance with regulations and minimize vulnerabilities.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-user-secret"></i>
+                <h5>Social Engineering Testing</h5>
+                <p style="text-align: justify;">Simulate phishing attacks and other tactics to identify weaknesses and improve resilience against human-based threats.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-hands-helping"></i>
+                <h5>Cyber Insurance Advisory</h5>
+                <p style="text-align: justify;">Analyze your risk profile and recommend the right cyber insurance to protect your business from financial losses.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-chalkboard-teacher"></i>
+                <h5>Security Awareness Training and Workshops</h5>
+                <p style="text-align: justify;">Empower your team with knowledge to recognize and respond to security threats, fostering a culture of security awareness.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+        <!-- Service Card Start -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="card-content">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h5>Student Training for Certification Exams</h5>
+                <p style="text-align: justify;">Prepare for a cybersecurity career with expert training and resources tailored to certification exam success.</p>
+            </div>
+        </div>
+        <!-- Service Card End -->
+
+    </div>
+</section>
+
+    <!-------------- Resume Section -------------->
+    <section id="resume">
+        <div class="heading-wrapper">
+            <div class="heading">
+                <h2>My Skills</h2>
+            </div>
+            <div class="animate-bar"></div>
+        </div>
+
+        <div class="container">
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>Security Operations Center (SOC)</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line SOC"></div>
+                </div>
+            </div>
+            <!-- Progress Item End -->
+
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>VAPT</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line VAPT"></div>
+                </div>
+            </div>
+            <!-- Progress Item End -->
+
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>Security Architecture Design</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line Design"></div>
+                </div>
+            </div>
+            <!-- Progress Item End -->
+
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>Threat Intelligence Analysis</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line TIAnalysis"></div>
+                </div>
+            </div>
+            <!-- Progress Item End -->
+
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>Network Security</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line Network"></div>
+                </div>
+            </div>
+            <!-- Progress Item End -->
+
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>Security Policy Development</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line Policy"></div>
+                </div>
+            </div>
+            <!-- Progress Item End -->
+
+        <!-- Progress Item Start -->
+        <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+            <div class="text">
+                <h5>Risk Assessment</h5>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-line Risk"></div>
+            </div>
+        </div>
+        <!-- Progress Item End -->
+        
+        <!-- Progress Item Start -->
+        <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+            <div class="text">
+                <h5>Programming and Scripting</h5>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-line Programming"></div>
+            </div>
+        </div>
+        <!-- Progress Item End -->
+        
+        <!-- Progress Item Start -->
+        <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+            <div class="text">
+                <h5>Security Awareness Training</h5>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-line Awareness"></div>
+            </div>
+        </div>
+        <!-- Progress Item End -->
+        </div>
+
+
+    </section>
+
+    <!-------------- Portfolio Section -------------->
+    <section id="portfolio">
+        <div class="heading-wrapper">
+            <div class="heading">
+                <h2>Achievements</h2>
+            </div>
+            <div class="animate-bar"></div>
+            <div class="sub-heading">
+                <p>Accomplished various cybersecurity certifications, spearheaded impactful projects, and garnered
+                    prestigious awards and badges, showcasing a commitment to excellence in the field.</p>
+            </div>
+        </div>
+
+        <!-------------- Gallery -------------->
+        <div class="gallery-wrapper">
+            <div class="gallery-nav">
+                <div class="gallery-filter">
+                    <span class="filter-item active" data-filter="Certification">Certifications</span>
+                    <span class="filter-item" data-filter="Project">Projects</span>
+                    <span class="filter-item" data-filter="Awards">Awards</span>
+                    <span class="filter-item" data-filter="Badges">Badges</span>
+                    <span class="filter-item" data-filter="Courses">Courses</span>
+                </div>
+            </div>
+            <div class="content-wrapper">
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Hybrid Multi-Cloud Red Team</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#"
+                            alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified Practial Network Penetration Tester</h5>
+                        </div>
+                        <br></br>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Anti-Phishing Certificate</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#"
+                            alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified Blockchain Practitioner (CBP)</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#"
+                            alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified AppSec Practitioner (CAP)</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified Ethical Hacker (Practial)</h5>
+                
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified Ethical Hacker (MASTER)</h5>
+                
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified Ethical Hacker</h5>
+                
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certificate Seceon Professional</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certificate Seceon Professional</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Certification" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Certification">
+                        <div class="overlay">
+                            <h5>AP Certificate lead</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Badges" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Badges">
+                        <div class="overlay">
+                            <h5>CEH Badge</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Badges" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Badges">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Certified Practial Network Penetration Tester Badge</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Badges" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Badges">
+                        <div class="overlay">
+                            <h5>CEH Practical Badge</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Badges" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Badges">
+                        <div class="overlay">
+                            <h5>CEH Master Badge</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Tryhackme Introduction to Cyber Security</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Tryhackme Web Fundamentals</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Tryhackme Pre Security </h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">Tryhackme Advent of Cyber 2024</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Tryhackme Red Team</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Practical API Hacking</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Practical API Hacking</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Python 101 for Hackers</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#"
+                            alt="Courses">
+                        <div class="overlay">
+                            <h5>Python 201 for Hackers</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Courses">
+                        <div class="overlay">
+                            <h5>Rust 101</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Courses" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#"
+                            alt="Courses">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">The Definitive GRC Analyst Master Class</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Awards" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <img src="#" alt="Awards">
+                        <div class="overlay">
+                            <h5 style="text-align: center;">National Level Chess Player</h5>
+                
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Project" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <div class="project-info">
+                            <h4>LAN-Based Examination System</h4>
+                            <p>Developed a LAN-Based Examination System using Java for efficient examination processes.</p>
+                        </div>
+                        <div class="overlay">
+                            <h5>LAN-Based Examination System</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->    
+                <div class="gallery-item Project" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <div class="project-info">
+                            <h4>Triple DES Encryption System</h4>
+                            <p>Created a Triple DES Encryption System Desktop Application in Python to enhance data security.</p>
+                        </div>
+                        <div class="overlay">
+                            <h5>Triple DES Encryption System</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Project" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <div class="project-info">
+                            <h4>Steganography</h4>
+                            <p>Designed and implemented an Image Steganography Desktop Application in Python for concealing information
+                                within digital media.</p>
+                        </div>
+                        <div class="overlay">
+                            <h5>Steganography</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Project" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <div class="project-info">
+                            <h4>INFOSINT</h4>
+                            <p>Developed INFOSINT, a Python-based information gathering tool utilizing OSINT methodology.</p>
+                        </div>
+                        <div class="overlay">
+                            <h5>INFOSINT</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+                <!-- Gallery Item Start -->
+                <div class="gallery-item Project" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="gallery-item-inner">
+                        <div class="project-info">
+                            <h4>ScanViz</h4>
+                            <p>Developed ScanViz, a Python-based tool for handling large Nmap output data efficiently.</p>
+                        </div>
+                        <div class="overlay">
+                            <h5>ScanViz</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item End -->
+
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-------------- Contact Section -------------->
+    <section id="contact">
+        <div class="heading-wrapper">
+            <div class="heading">
+                <h2>Get in touch</h2>
+            </div>
+            <div class="animate-bar"></div>
+        </div>
+
+        <div class="container">
+            <form action="https://formsubmit.co/sahilparmar.prof@gmail.com" method="POST" data-aos="fade-right" data-aos-duration="1200">
+                <div class="title">
+                    <h4>Message Me</h4>
+                </div>
+
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="form-styled_styles.css">
+                <link rel="stylesheet" href="styles/all.css">
+                <link rel="stylesheet" href="fonts/webfonts/">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+                
+            
+                <title>Document</title>
+            </head>
+            <body>
+            
+                <form class="compact" action="#" method="post" enctype="multipart/form-data">
+                    
+                    <fieldset>
+                    
+                    
+                        <div class="form-part">
+                            <label for="user-name">user name:</label>
+                            <div class="input name">
+                                <input id="user-name" type="text" name="name" value="" placeholder="Enter your Name">
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="form-part">
+                           <label for="user-email">Email:</label>
+                           <div class="input email">
+                               <input id="user-email" type="text" name="email" value="" placeholder="Enter your Email">
+                           </div>
+                        </div>
+            
+            
+                        <div class="form-part">
+                           <label for="user-tel">Telephone:</label>
+                           <div class="input tel">
+                               <input id="user-tel" type="tel" name="tel" value="" placeholder="Enter your telephone number">
+                           </div>
+                        </div>
+            
+            
+                        <div class="form-part">
+                           <label for="user-massage">Message:</label>
+                           <div class="input massage">
+                               <textarea name="massage" id="user-massage" cols="30" rows="5" placeholder="Enter Your Message"></textarea>
+                           </div>
+                        </div>
+            
+            
+                        <div class="form__footer">
+                            <div class="form__footer__buttons">
+                                <input type="submit">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                </div>
+            </form>
+
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="1200">
+                <div class="title">
+                    <h4>Contact-info</h4>
+                </div>
+                <div class="subtitle">
+                    <p>Always available for freelance work if the right project comes along, Feel free
+                        to contact me!</p>
+                </div>
+
+                <ul class="contact-list">
+
+                    <!-- List Item Start -->
+                    <li class="list-item">
+                        <div class="icon">
+                            <i class="fa-brands fa-hive"></i>
+                        </div>
+                        <div class="details">
+                            <label for="#">Name</label>
+                            <p>Harsh Singh Rao</p>
+                        </div>
+                    </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
+                    <li class="list-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="details">
+                            <label for="#">Location</label>
+                            <p>India</p>
+                        </div>
+                    </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
+                    <li class="list-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <label for="#">Call Me</label>
+                            <p>+91 8824968540</p>
+                        </div>
+                    </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
+                    <li class="list-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-at"></i>
+                        </div>
+                        <div class="details">
+                            <label for="#">Email</label>
+                            <p>harshsinghrao4@gmail.com</p>
+                        </div>
+                    </li>
+        </div>       
+    </section>
+
+
+    <!-------------- Footer -------------->
+    <footer>
+        <p>&copy; 2025 Harsh Singh Rao | All Rights Reserved</p>
+    </footer>
+
+<!-- Add this to your <head> section -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+   
+    <!-- Add this to the body section -->
+\<div style="position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
+    <!-- LinkedIn Icon -->
+    <a href="https://www.linkedin.com/in/harsh-singh-rao" target="_blank" style="text-decoration: none; color: inherit;">
+        <button style="
+            background: none; 
+            border: none; 
+            font-size: 24px; 
+            color: #0A66C2; 
+            cursor: pointer; 
+            padding: 10px; 
+            border-radius: 50%; 
+            box-shadow: 0 4px 6px rgba(12, 93, 199, 0.3);">
+            <i class="fab fa-linkedin"></i>
+        </button>
+    </a>
+        <!-- GitHub Icon -->
+        <a href="https://github.com/Harsh595fy" target="_blank" 
+           style="text-decoration: none; color: inherit;">
+            <button style="
+                background: none; 
+                border: none; 
+                font-size: 24px; 
+                color: #fffcfc; 
+                cursor: pointer; 
+                padding: 10px; 
+                border-radius: 50%; 
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
+                <i class="fab fa-github"></i>
+            </button>
+        </a>
+    
+        <!-- TryHackMe Icon -->
+        <a href="https://tryhackme.com/r/p/Harshrao078" target="_blank" 
+           style="text-decoration: none; color: inherit;">
+            <button style="
+                background: none; 
+                border: none; 
+                font-size: 24px; 
+                color: #FF0000; 
+                cursor: pointer; 
+                padding: 10px; 
+                border-radius: 50%; 
+                box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);">
+                <i class="fas fa-hackerrank"></i>
+            </button>
+        </a>
+    </div>
+    
+    </div>
+</body>
+</html>
